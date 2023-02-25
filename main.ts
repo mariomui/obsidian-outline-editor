@@ -6,7 +6,7 @@ export default class OutlinePlugin extends Plugin {
 		console.log({ data });
 		const ribbonIconEl = this.addRibbonIcon("dice", "mydice", (e) => {
 			console.log({ e });
-			new Notice("This is a noticer!");
+			new Notice("hot reloaded!");
 		});
 		ribbonIconEl.addClass(".ribbon");
 		const $statusBar = this.addStatusBarItem();

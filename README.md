@@ -2,12 +2,17 @@
 
 ## For Developers
 
-### Prereqs
+### Prerequisites
 
 * Setup you dev environment
 * open obsidian and point vault to the one in sandbox.
-*
+* enable two plugins, hot reload and the sample one we specified in manifest.json
+* run `pnpm dev`.
+  * this will automatically update the sandbox.
+* When making changes to your plugin, open up the chrome inspector in obsidian and do a refresh.
 
+LOOKS like this
+![hot reload](./assets/obsidian-hot-reload.gif)
 ----
 
 # Obsidian Sample Plugin
